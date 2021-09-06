@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-
-<!-- Mirrored from www.designesia.com/themes/gigaland/03_grey-index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Sep 2021 18:02:13 GMT -->
 <head>
     <title>Gigaland - NFT Marketplace Website Template</title>
     <link rel="icon" href="images/icon-red.png" type="image/gif" sizes="16x16">
@@ -851,6 +849,4 @@
 
 </body>
 
-
-<!-- Mirrored from www.designesia.com/themes/gigaland/03_grey-index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Sep 2021 18:03:12 GMT -->
 </html>
