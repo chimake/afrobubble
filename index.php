@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Gigaland - NFT Marketplace Website Template</title>
+    <title>Afrobubble - NFT Marketplace </title>
     <link rel="icon" href="images/icon-red.png" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -45,9 +45,7 @@
                                     </div>
                                     <!-- logo close -->
                                 </div>
-                                <div class="de-flex-col">
-                                    <input id="quick_search" class="xs-hide style-2" name="quick_search" placeholder="search item here..." type="text" />
-                                </div>
+                                
                             </div>
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainmenu begin -->
@@ -97,19 +95,19 @@
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="section-hero" aria-label="section" class="pt20 pb20 vh-100" data-bgimage="url(images/background/7.jpg) bottom">
+            <section id="section-hero" aria-label="section" class="pt20 pb20 vh-100" style="background:#5e3232;">
                 <div class="v-center">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="spacer-single"></div>
-                                <h6 class="wow fadeInUp" data-wow-delay=".5s"><span class="text-uppercase id-color-2">Gigaland Market</span></h6>
+                                <h6 class="wow fadeInUp" data-wow-delay=".5s"><span class="text-uppercase id-color-2">Afrobubble Market</span></h6>
                                 <div class="spacer-10"></div>
                                 <h1 class="wow fadeInUp" data-wow-delay=".75s">Discover rare <span class="id-color-2">artworks</span> by world class artists</h1>
                                 <p class="wow fadeInUp lead" data-wow-delay="1s">
                                 Unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable</p>
                                 <div class="spacer-10"></div>
-                                <a href="03_grey-explore.html" class="btn-main wow fadeInUp lead" data-wow-delay="1.25s">Explore</a>
+                                <a href="Afrobubble_Roadmap_04092021.pdf" class="btn-main wow fadeInUp lead" data-wow-delay="1.25s">Explore</a>
                                 <div class="mb-sm-30"></div>
                             </div>
                             <div class="col-md-6 xs-hide">
@@ -118,62 +116,16 @@
                                         <div class="nft_pic style-2">                            
                                             <a href="03_grey-item-details.html">
                                                 <span class="nft_pic_info">
-                                                    <span class="nft_pic_title">Live Arts</span>
-                                                    <span class="nft_pic_by">Nicholas Daniels</span>
+                                                    <span class="nft_pic_title">Queen Amina</span>
+                                                    
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/carousel/crs-5.jpg" class="lazy img-fluid" alt="">
+                                                <img src="images/carousel/queen-amina.png" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
                                         
-                                        <div class="nft_pic style-2">                            
-                                            <a href="03_grey-item-details.html">
-                                                <span class="nft_pic_info">
-                                                    <span class="nft_pic_title">Red Ocean</span>
-                                                    <span class="nft_pic_by">Monica Lucas</span>
-                                                </span>
-                                            </a>
-                                            <div class="nft_pic_wrap">
-                                                <img src="images/carousel/crs-4.jpg" class="lazy img-fluid" alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="nft_pic style-2">                            
-                                            <a href="03_grey-item-details.html">
-                                                <span class="nft_pic_info">
-                                                    <span class="nft_pic_title">Glass Cube</span>
-                                                    <span class="nft_pic_by">Mamie Barnett</span>
-                                                </span>
-                                            </a>
-                                            <div class="nft_pic_wrap">
-                                                <img src="images/carousel/crs-1.jpg" class="lazy img-fluid" alt="">
-                                            </div>
-                                        </div>
                                         
-                                        <div class="nft_pic style-2">                            
-                                            <a href="03_grey-item-details.html">
-                                                <span class="nft_pic_info">
-                                                    <span class="nft_pic_title">Loop Donut</span>
-                                                    <span class="nft_pic_by">Lori Hart</span>
-                                                </span>
-                                            </a>
-                                            <div class="nft_pic_wrap">
-                                                <img src="images/items/anim-5.html" class="lazy img-fluid" alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="nft_pic style-2">                            
-                                            <a href="03_grey-item-details.html">
-                                                <span class="nft_pic_info">
-                                                    <span class="nft_pic_title">I Believe I Can Fly</span>
-                                                    <span class="nft_pic_by">Fred Ryan</span>
-                                                </span>
-                                            </a>
-                                            <div class="nft_pic_wrap">
-                                                <img src="images/items/anim-8.html" class="lazy img-fluid" alt="">
-                                            </div>
-                                        </div>
                                     </div>
                                         <div class="d-arrow-left"><i class="fa fa-angle-left"></i></div>
                                         <div class="d-arrow-right"><i class="fa fa-angle-right"></i></div>
