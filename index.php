@@ -22,6 +22,7 @@
     <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/de-grey.css" rel="stylesheet" type="text/css" />
+    <link href="fonts/motee-font/stylesheet.css" rel="stylesheet" type="text/css" />
     <!-- color scheme -->   
     <link id="colors" href="css/colors/scheme-04.css" rel="stylesheet" type="text/css" />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />

@@ -28,10 +28,18 @@
 @import url("../fonts/elegant_font/HTML_CSS/style.css");
 @import url("../fonts/et-line-font/style.css");
 @import url("../fonts/icofont/icofont.min.css");
+@font-face {
+    font-family: 'moteeferegular';
+    src: url('moteefe-lgl5q-webfont.woff2') format('woff2'),
+         url('moteefe-lgl5q-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 * {
-    --body-font: "DM Sans", Helvetica, Arial, sans-serif;
-    --title-font: "DM Sans", Helvetica, Arial, sans-serif;
+    --body-font: "moteeferegular", Helvetica, Arial, sans-serif;
+    --title-font: "moteeferegular", Helvetica, Arial, sans-serif;
 }
 
 /* ================================================== */
@@ -635,6 +643,8 @@ header .header-col.mid .social-icons {
     padding: 30px 18px;
     text-decoration: none;
     color: #fff;
+    font-size: 17px;
+    letter-spacing: 3px;
     text-align: center;
     outline: none;
 }
@@ -2799,6 +2809,8 @@ a.btn-main.btn-white {
 header a.btn-main,
 header a.btn-line {
     padding: 6px 20px !important;
+    letter-spacing: 3px;
+    font-size: 16px;
 }
 
 .col-right a.btn-main {
@@ -3360,7 +3372,8 @@ h1,
     font-size: 50px;
     margin-bottom: 20px;
     line-height: 1.2em;
-    letter-spacing: -1px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 h1 .label {
@@ -8278,10 +8291,11 @@ table thead {
 }
 
 p.lead {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.7em;
+    letter-spacing: 2px;
     margin-top: 0;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 p.lead.big {
@@ -9098,8 +9112,9 @@ h2 {
     overflow: hidden;
     position: relative;
     left: 0;
+    text-transform: uppercase;
     right: 0;
-    letter-spacing: -1px;
+    letter-spacing: 3px;
 }
 
 h2 span.underline {
