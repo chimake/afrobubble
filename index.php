@@ -137,6 +137,28 @@
                 </div>
             </section>
 
+            <section id="section-hero-bg" aria-label="section" data-bgimage="url(images/background/amina.jpg) bottom" class="pt20 pb20 vh-100"  >
+                <div class="v-center">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col"></div>
+                            <div class="col-md-8">
+                                <div class="spacer-single"></div>
+                                <h6 class="wow fadeInUp" data-wow-delay=".5s"><span class="text-uppercase id-color-2">Afrobubble Market</span></h6>
+                                <div class="spacer-10"></div>
+                                <h1 class="wow fadeInUp" data-wow-delay=".75s">Discover rare <span class="id-color-2">artworks</span> by world class artists</h1>
+                                <p class="wow fadeInUp lead" data-wow-delay="1s">
+                                Unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable</p>
+                                <div class="spacer-10"></div>
+                                <a href="Afrobubble_Roadmap_04092021.pdf" class="btn-main wow fadeInUp lead" data-wow-delay="1.25s">Explore</a>
+                                <div class="mb-sm-30"></div>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section id="section-collections" class="pt30 pb30">
                 <div class="container">
 
