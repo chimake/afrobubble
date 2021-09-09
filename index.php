@@ -96,7 +96,7 @@
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="section-hero" aria-label="section" class="pt20 pb20 vh-100" style="background:#5e3232;">
+            <section id="section-hero" aria-label="section" class="pt20 pb20 vh-100" >
                 <div class="v-center">
                     <div class="container">
                         <div class="row align-items-center">
