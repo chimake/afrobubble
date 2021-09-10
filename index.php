@@ -514,7 +514,7 @@
                 autoplayTimeout:5000,
                 autoplayHoverPause:true
             });
-           
+        
     </script>
 
 </body>
