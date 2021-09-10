@@ -198,7 +198,7 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/carousel/bub1.png" class="lazy img-fluid" alt="">
+                                                <img src="https://ik.imagekit.io/s9h7q86dvml/bub1_Drin8cWMXs.png?updatedAt=1631282854542" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
                                         
@@ -210,7 +210,7 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/carousel/bub2.png" class="lazy img-fluid" alt="">
+                                                <img src="https://ik.imagekit.io/s9h7q86dvml/bub2_1MFG1Kc9Y.png?updatedAt=1631282898373" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
 
@@ -222,7 +222,7 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/carousel/bub3.png" class="lazy img-fluid" alt="">
+                                                <img src="https://ik.imagekit.io/s9h7q86dvml/bub3_Z_R31dgrh.png?updatedAt=1631282862975" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
 
@@ -234,19 +234,19 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/carousel/bub4.png" class="lazy img-fluid" alt="">
+                                                <img src="https://ik.imagekit.io/s9h7q86dvml/bub4_IHsXz-z3_A0l.png?updatedAt=1631282905540" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
                                         
                                         <div class="nft_pic style-2">                            
                                             <a href="03_grey-item-details.html">
                                                 <span class="nft_pic_info">
-                                                    <span class="nft_pic_title">BUB 4</span>
+                                                    <span class="nft_pic_title">BUB 5</span>
                                                     
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/carousel/bub4.png" class="lazy img-fluid" alt="">
+                                                <img src="https://ik.imagekit.io/s9h7q86dvml/bub5_JVyvpW2QhP.png?updatedAt=1631282894639" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
                                     </div>
