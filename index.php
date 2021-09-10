@@ -198,7 +198,7 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/bubs/bub1.png" class="lazy img-fluid" alt="">
+                                                <img src="images/bubs-images/bub1.png" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
                                         
@@ -210,7 +210,7 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/bubs/bub2.png" class="lazy img-fluid" alt="">
+                                                <img src="images/bubs-images/bub2.png" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
 
@@ -222,7 +222,7 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/bubs/bub3.png" class="lazy img-fluid" alt="">
+                                                <img src="images/bubs-images/bub3.png" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
 
@@ -234,7 +234,7 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/bubs/bub4.png" class="lazy img-fluid" alt="">
+                                                <img src="images/bubs-images/bub4.png" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
                                         
@@ -246,18 +246,11 @@
                                                 </span>
                                             </a>
                                             <div class="nft_pic_wrap">
-                                                <img src="images/bubs/bub4.png" class="lazy img-fluid" alt="">
+                                                <img src="images/bubs-images/bub4.png" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
                                     </div>
-                                    
-
-                                   
-
-                                   
-
-
-                                   
+                                                                       
                                         <div class="d-arrow-left"><i class="fa fa-angle-left"></i></div>
                                         <div class="d-arrow-right"><i class="fa fa-angle-right"></i></div>
                                 </div>
