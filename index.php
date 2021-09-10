@@ -23,9 +23,82 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/de-grey.css" rel="stylesheet" type="text/css" />
     <link href="fonts/motee-font/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <!-- color scheme -->   
     <link id="colors" href="css/colors/scheme-04.css" rel="stylesheet" type="text/css" />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="vertical-timeline-master/assets/css/style.css">
+    <style>
+      
+
+.timeline {
+  color: #689F38;
+  min-height: 80vh;
+  margin: 20px 0;
+}
+.timeline .timeline-container {
+  position: relative;
+  background: #C5E1A5;
+  padding: 1em;
+  margin: 50px 30px 0 30px;
+  text-align: justify;
+}
+.timeline .timeline-bar {
+  position: absolute;
+  left: 49.6%;
+  height: 100%;
+  border-right: 5px solid #689F38;
+  margin-bottom: 20px;
+}
+.timeline .timeline-arrow {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  left: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-event: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-left-color: #C5E1A5;
+  border-width: 12px;
+  margin-top: -12px;
+  border-color: rgba(0, 0, 0, 0);
+  border-left-color: #C5E1A5;
+  border-width: 13px;
+  margin-top: -13px;
+}
+.timeline-right .timeline-arrow {
+  left: 0;
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #C5E1A5;
+  margin-left: -20px;
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #C5E1A5;
+  margin-left: -26px;
+}
+.timeline-circle {
+  position: absolute;
+  right: -66px;
+  top: 39%;
+}
+.timeline-circle .fa-code {
+  padding: 0.5em;
+  border: 1px solid #689F38;
+  border-radius: 50%;
+  background: #689F38;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.timeline-right .timeline-container .timeline-circle {
+  left: -69px;
+}
+    </style>
 </head>
 
 <body class="dark-scheme de-grey">
@@ -99,7 +172,7 @@
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="section-hero" aria-label="section" class="pt20 pb20 vh-100" >
+            <section id="home" aria-label="section" class="pt20 pb20 vh-100" >
                 <div class="v-center">
                     <div class="container">
                         <div class="row align-items-center">
@@ -128,9 +201,75 @@
                                                 <img src="images/carousel/queen-amina.png" class="lazy img-fluid" alt="">
                                             </div>
                                         </div>  
+
+                                        <div class="nft_pic style-2">                            
+                                            <a href="03_grey-item-details.html">
+                                                <span class="nft_pic_info">
+                                                    <span class="nft_pic_title">BUB 1</span>
+                                                    
+                                                </span>
+                                            </a>
+                                            <div class="nft_pic_wrap">
+                                                <img src="images/bubs/bub1.png" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </div>  
                                         
+                                        <div class="nft_pic style-2">                            
+                                            <a href="03_grey-item-details.html">
+                                                <span class="nft_pic_info">
+                                                    <span class="nft_pic_title">BUB 2</span>
+                                                    
+                                                </span>
+                                            </a>
+                                            <div class="nft_pic_wrap">
+                                                <img src="images/bubs/bub2.png" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </div>  
+
+                                        <div class="nft_pic style-2">                            
+                                            <a href="03_grey-item-details.html">
+                                                <span class="nft_pic_info">
+                                                    <span class="nft_pic_title">BUB 3</span>
+                                                    
+                                                </span>
+                                            </a>
+                                            <div class="nft_pic_wrap">
+                                                <img src="images/bubs/bub3.png" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </div>  
+
+                                        <div class="nft_pic style-2">                            
+                                            <a href="03_grey-item-details.html">
+                                                <span class="nft_pic_info">
+                                                    <span class="nft_pic_title">BUB 4</span>
+                                                    
+                                                </span>
+                                            </a>
+                                            <div class="nft_pic_wrap">
+                                                <img src="images/bubs/bub4.png" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </div>  
                                         
+                                        <div class="nft_pic style-2">                            
+                                            <a href="03_grey-item-details.html">
+                                                <span class="nft_pic_info">
+                                                    <span class="nft_pic_title">BUB 4</span>
+                                                    
+                                                </span>
+                                            </a>
+                                            <div class="nft_pic_wrap">
+                                                <img src="images/bubs/bub4.png" class="lazy img-fluid" alt="">
+                                            </div>
+                                        </div>  
                                     </div>
+                                    
+
+                                   
+
+                                   
+
+
+                                   
                                         <div class="d-arrow-left"><i class="fa fa-angle-left"></i></div>
                                         <div class="d-arrow-right"><i class="fa fa-angle-right"></i></div>
                                 </div>
@@ -140,7 +279,7 @@
                 </div>
             </section>
 
-            <section id="section-hero-bg" aria-label="section" data-bgimage="url(images/background/amina.jpg) bottom" class="pt20 pb20 vh-100"  >
+            <section id="about" aria-label="section" data-bgimage="url(images/background/amina.jpg) bottom" class="pt20 pb20 vh-100"  >
                 <div class="v-center">
                     <div class="container">
                         <div class="row align-items-center">
@@ -162,555 +301,150 @@
                 </div>
             </section>
 
+            <section id="story" aria-label="section" class="pt20 pb20 vh-100" >
+                <div class="v-center">
+                    <div class="container">
+                        <div class="row align-items-center">
+                        <div class="col-md-6 " >
+                        
+                        <img class="lazy" src="images/carousel/queen-amina.png" style="width: 500px;border-radius: 40px;box-shadow: #000;" alt=""> 
+                               
+                          
+                        </div>
+                            <div class="col-md-6">
+                                <div class="spacer-single"></div>                            
+                                <h1 class="wow fadeInUp" data-wow-delay=".75s">Discover rare <span class="id-color-2">artworks</span> by world class artists</h1>
+                                <p class="wow fadeInUp lead" data-wow-delay="1s">
+                                Unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable</p>
+                               
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" aria-label="section"  class="pt20 pb20 vh-100"  >
+                <div class="v-center">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col"></div>
+                            <div class="col-md-8">
+                            <div class="container">
+                                <div class="row timeline">
+                                <div class="timeline-bar"></div>
+                                <div class="col-sm-6 timeline-left">
+                                <div class="timeline-container">
+                                    <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+                                    <div class="timeline-arrow"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad suscipit deserunt fuga aut corporis officia! Vitae molestias, eligendi cum velit necessitatibus dolorem, repellat inventore perferendis, nostrum reiciendis doloremque quisquam.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-sm-offset-6 timeline-right">
+                                <div class="timeline-container">
+                                    <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+                                    <div class="timeline-arrow"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, accusamus perspiciatis quo repellat tempora corporis fuga, delectus facere nisi enim in iusto inventore veritatis optio debitis deleniti commodi asperiores. Consequatur.</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="row timeline">
+                                <div class="timeline-bar"></div>
+                                <div class="col-sm-6 timeline-left">
+                                <div class="timeline-container">
+                                    <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+                                    <div class="timeline-arrow"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad suscipit deserunt fuga aut corporis officia! Vitae molestias, eligendi cum velit necessitatibus dolorem, repellat inventore perferendis, nostrum reiciendis doloremque quisquam.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-sm-offset-6 timeline-right">
+                                <div class="timeline-container">
+                                    <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+                                    <div class="timeline-arrow"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, accusamus perspiciatis quo repellat tempora corporis fuga, delectus facere nisi enim in iusto inventore veritatis optio debitis deleniti commodi asperiores. Consequatur.</p>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+          
             <section id="section-collections" class="pt30 pb30">
                 <div class="container">
 
                             <div class="spacer-single"></div>
                             
                             <div class="row wow fadeIn"> 
-                                <div class="col-lg-12">
-                                    <h2 class="style-2">New Items</h2>
-                                </div>
+                                
 
                                 <!-- nft item begin -->
-                                <div class="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="d-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                     <div class="nft__item style-2">
-                                        <div class="de_countdown" data-year="2021" data-month="9" data-day="20" data-hour="8"></div>
-                                        <div class="author_list_pp">
-                                            <a href="03_grey-author.html">                                    
-                                                <img class="lazy" src="images/author/author-1.jpg" alt="">
-                                                <i class="fa fa-check"></i>
-                                            </a>
-                                        </div>
+                                        
+                                        
                                         <div class="nft__item_wrap">
-                                            <a href="03_grey-item-details.html">
+                                            <a href="#">
                                                 <img src="images/items-alt/static-1.jpg" class="lazy nft__item_preview" alt="">
                                             </a>
                                         </div>
                                         <div class="nft__item_info">
-                                            <a href="03_grey-item-details.html">
+                                            <a href="#" style="text-align:center;">
                                                 <h4>Sunny Day</h4>
                                             </a>
-                                            <div class="nft__item_price">
-                                                0.08 ETH<span>1/20</span>
-                                            </div>
-                                            <div class="nft__item_action">
-                                                <a href="#">Place a bid</a>
-                                            </div>
-                                            <div class="nft__item_like">
-                                                <i class="fa fa-heart"></i><span>50</span>
-                                            </div>                            
+                                                                     
                                         </div> 
                                     </div>
-                                </div>                 
-                                <!-- nft item begin -->
-                                <div class="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                </div>  
+                                
+                                <div class="d-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                     <div class="nft__item style-2">
-                                        <div class="author_list_pp">
-                                            <a href="03_grey-author.html">                                    
-                                                <img class="lazy" src="images/author/author-10.jpg" alt="">
-                                                <i class="fa fa-check"></i>
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_wrap">
-                                            <a href="03_grey-item-details.html">
-                                                <img src="images/items-alt/static-2.jpg" class="lazy nft__item_preview" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_info">
-                                            <a href="03_grey-item-details.html">
-                                                <h4>Blue Planet</h4>
-                                            </a>
-                                            <div class="nft__item_price">
-                                                0.06 ETH<span>1/22</span>
-                                            </div>
-                                            <div class="nft__item_action">
-                                                <a href="#">Place a bid</a>
-                                            </div>
-                                            <div class="nft__item_like">
-                                                <i class="fa fa-heart"></i><span>80</span>
-                                            </div>                                 
-                                        </div> 
-                                    </div>
-                                </div>
-                                <!-- nft item begin -->
-                                <div class="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="nft__item style-2">
-                                        <div class="de_countdown id-color" data-year="2021" data-month="9" data-day="14" data-hour="8"></div>
-                                        <div class="author_list_pp">
-                                            <a href="03_grey-author.html">                                    
-                                                <img class="lazy" src="images/author/author-11.jpg" alt="">
-                                                <i class="fa fa-check"></i>
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_wrap">
-                                            <a href="03_grey-item-details.html">
-                                                <img src="images/items-alt/static-3.jpg" class="lazy nft__item_preview" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_info">
-                                            <a href="03_grey-item-details.html">
-                                                <h4>Finally Free</h4>
-                                            </a>
-                                            <div class="nft__item_price">
-                                                0.05 ETH<span>1/11</span>
-                                            </div>
-                                            <div class="nft__item_action">
-                                                <a href="#">Place a bid</a>
-                                            </div>
-                                            <div class="nft__item_like">
-                                                <i class="fa fa-heart"></i><span>97</span>
-                                            </div>                                 
-                                        </div> 
-                                    </div>
-                                </div>
-                                <!-- nft item begin -->
-                                <div class="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="nft__item style-2">
-                                        <div class="author_list_pp">
-                                            <a href="03_grey-author.html">                                    
-                                                <img class="lazy" src="images/author/author-12.jpg" alt="">
-                                                <i class="fa fa-check"></i>
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_wrap">
-                                            <a href="03_grey-item-details.html">
-                                                <img src="images/items-alt/static-4.jpg" class="lazy nft__item_preview" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_info">
-                                            <a href="03_grey-item-details.html">
-                                                <h4>Work From Home</h4>
-                                            </a>
-                                            <div class="nft__item_price">
-                                                0.02 ETH<span>1/15</span>
-                                            </div>
-                                            <div class="nft__item_action">
-                                                <a href="#">Place a bid</a>
-                                            </div>
-                                            <div class="nft__item_like">
-                                                <i class="fa fa-heart"></i><span>73</span>
-                                            </div>                                 
-                                        </div> 
-                                    </div>
-                                </div>
-                                <!-- nft item begin -->
-                                <div class="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="nft__item style-2">
-                                        <div class="author_list_pp">
-                                            <a href="03_grey-author.html">                                    
-                                                <img class="lazy" src="images/author/author-9.jpg" alt="">
-                                                <i class="fa fa-check"></i>
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_wrap">
-                                            <a href="03_grey-item-details.html">
-                                                <img src="images/items/anim-4.html" class="lazy nft__item_preview" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_info">
-                                            <a href="03_grey-item-details.html">
-                                                <h4>The Truth</h4>
-                                            </a>
-                                            <div class="nft__item_price">
-                                                0.06 ETH<span>1/20</span>
-                                            </div>
-                                            <div class="nft__item_action">
-                                                <a href="#">Place a bid</a>
-                                            </div>
-                                            <div class="nft__item_like">
-                                                <i class="fa fa-heart"></i><span>26</span>
-                                            </div>                                 
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- nft item begin -->
-                                <div class="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="nft__item style-2">
-                                        <div class="de_countdown id-color" data-year="2021" data-month="9" data-day="30" data-hour="8"></div>
-                                        <div class="author_list_pp">
-                                            <a href="03_grey-author.html">                                    
-                                                <img class="lazy" src="images/author/author-2.jpg" alt="">
-                                                <i class="fa fa-check"></i>
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_wrap">
-                                            <a href="03_grey-item-details.html">
-                                                <img src="images/items-alt/static-5.jpg" class="lazy nft__item_preview" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_info">
-                                            <a href="03_grey-item-details.html">
-                                                <h4>Running Puppets</h4>
-                                            </a>
-                                            <div class="nft__item_price">
-                                                0.03 ETH<span>1/24</span>
-                                            </div>    
-                                            <div class="nft__item_action">
-                                                <a href="#">Place a bid</a>
-                                            </div>
-                                            <div class="nft__item_like">
-                                                <i class="fa fa-heart"></i><span>45</span>
-                                            </div>                                  
-                                        </div> 
-                                    </div>
-                                </div>
-                                <!-- nft item begin -->
-                                <div class="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="nft__item style-2">
-                                        <div class="author_list_pp">
-                                            <a href="03_grey-author.html">                                    
-                                                <img class="lazy" src="images/author/author-3.jpg" alt="">
-                                                <i class="fa fa-check"></i>
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_wrap">
-                                            <a href="03_grey-item-details.html">
-                                                <img src="images/items-alt/static-6.jpg" class="lazy nft__item_preview" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_info">
-                                            <a href="03_grey-item-details.html">
-                                                <h4>Green Frogman</h4>
-                                            </a>
-                                            <div class="nft__item_price">
-                                                0.09 ETH<span>1/25</span>
-                                            </div>
-                                            <div class="nft__item_action">
-                                                <a href="#">Place a bid</a>
-                                            </div>
-                                            <div class="nft__item_like">
-                                                <i class="fa fa-heart"></i><span>76</span>
-                                            </div>                                 
-                                        </div> 
-                                    </div>
-                                </div>
-                                <!-- nft item begin -->
-                                <div class="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="nft__item style-2">
-                                        <div class="de_countdown id-color" data-year="2021" data-month="9" data-day="29" data-hour="8"></div>
-                                        <div class="author_list_pp">
-                                            <a href="03_grey-author.html">                                    
-                                                <img class="lazy" src="images/author/author-4.jpg" alt="">
-                                                <i class="fa fa-check"></i>
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_wrap">
-                                            <a href="03_grey-item-details.html">
-                                                <img src="images/items/anim-5.html" class="lazy nft__item_preview" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="nft__item_info">
-                                            <a href="03_grey-item-details.html">
-                                                <h4>Loop Donut</h4>
-                                            </a>
-                                            <div class="nft__item_price">
-                                                0.09 ETH<span>1/14</span>
-                                            </div>
-                                            <div class="nft__item_action">
-                                                <a href="#">Place a bid</a>
-                                            </div>
-                                            <div class="nft__item_like">
-                                                <i class="fa fa-heart"></i><span>94</span>
-                                            </div>                                 
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="spacer-single"></div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <h2 class="style-2">Hot Collections</h2>
-                                </div>
-                                <div id="collection-carousel-alt" class="owl-carousel wow fadeIn">
-
-                                        <div class="nft_coll style-2">
-                                            <div class="nft_wrap">
-                                                <a href="03_grey-collection.html"><img src="images/collections/coll-1.jpg" class="lazy img-fluid" alt=""></a>
-                                            </div>
-                                            <div class="nft_coll_pp">
-                                                <a href="03_grey-collection.html"><img class="lazy" src="images/author/author-1.jpg" alt=""></a>
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="nft_coll_info">
-                                                <a href="03_grey-collection.html"><h4>Abstraction</h4></a>
-                                                <span>ERC-192</span>
-                                            </div>
-                                        </div>
-                                    
-                                        <div class="nft_coll style-2">
-                                            <div class="nft_wrap">
-                                                <a href="03_grey-collection.html"><img src="images/collections/coll-2.jpg" class="lazy img-fluid" alt=""></a>
-                                            </div>
-                                            <div class="nft_coll_pp">
-                                                <a href="03_grey-collection.html"><img class="lazy" src="images/author/author-2.jpg" alt=""></a>
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="nft_coll_info">
-                                                <a href="03_grey-collection.html"><h4>Patternlicious</h4></a>
-                                                <span>ERC-61</span>
-                                            </div>
-                                        </div>
-                                    
-                                        <div class="nft_coll style-2">
-                                            <div class="nft_wrap">
-                                                <a href="03_grey-collection.html"><img src="images/collections/coll-3.jpg" class="lazy img-fluid" alt=""></a>
-                                            </div>
-                                            <div class="nft_coll_pp">
-                                                <a href="03_grey-collection.html"><img class="lazy" src="images/author/author-3.jpg" alt=""></a>
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="nft_coll_info">
-                                                <a href="03_grey-collection.html"><h4>Skecthify</h4></a>
-                                                <span>ERC-126</span>
-                                            </div>
-                                        </div>
-                                    
-                                        <div class="nft_coll style-2">
-                                            <div class="nft_wrap">
-                                                <a href="03_grey-collection.html"><img src="images/collections/coll-4.jpg" class="lazy img-fluid" alt=""></a>
-                                            </div>
-                                            <div class="nft_coll_pp">
-                                                <a href="03_grey-collection.html"><img class="lazy" src="images/author/author-4.jpg" alt=""></a>
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="nft_coll_info">
-                                                <a href="03_grey-collection.html"><h4>Cartoonism</h4></a>
-                                                <span>ERC-73</span>
-                                            </div>
-                                        </div>
-                                    
-                                        <div class="nft_coll style-2">
-                                            <div class="nft_wrap">
-                                                <a href="03_grey-collection.html"><img src="images/collections/coll-5.jpg" class="lazy img-fluid" alt=""></a>
-                                            </div>
-                                            <div class="nft_coll_pp">
-                                                <a href="03_grey-collection.html"><img class="lazy" src="images/author/author-5.jpg" alt=""></a>
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="nft_coll_info">
-                                                <a href="03_grey-collection.html"><h4>Virtuland</h4></a>
-                                                <span>ERC-85</span>
-                                            </div>
-                                        </div>
-                                    
-                                        <div class="nft_coll style-2">
-                                            <div class="nft_wrap">
-                                                <a href="03_grey-collection.html"><img src="images/collections/coll-6.jpg" class="lazy img-fluid" alt=""></a>
-                                            </div>
-                                            <div class="nft_coll_pp">
-                                                <a href="03_grey-collection.html"><img class="lazy" src="images/author/author-6.jpg" alt=""></a>
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div class="nft_coll_info">
-                                                <a href="03_grey-collection.html"><h4>Papercut</h4></a>
-                                                <span>ERC-42</span>
-                                            </div>
-                                        </div>
                                         
+                                        
+                                        <div class="nft__item_wrap">
+                                            <a href="#">
+                                                <img src="images/items-alt/static-1.jpg" class="lazy nft__item_preview" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="nft__item_info">
+                                            <a href="#" style="text-align:center;">
+                                                <h4>Sunny Day</h4>
+                                            </a>
+                                                                     
+                                        </div> 
                                     </div>
-                                </div>
+                                </div>  
 
-                                <div class="spacer-double"></div>
+                                <div class="d-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="nft__item style-2">
+                                        
+                                        
+                                        <div class="nft__item_wrap">
+                                            <a href="#">
+                                                <img src="images/items-alt/static-1.jpg" class="lazy nft__item_preview" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="nft__item_info">
+                                            <a href="#" style="text-align:center;">
+                                                <h4>Sunny Day</h4>
+                                            </a>
+                                                                     
+                                        </div> 
+                                    </div>
+                                </div>  
+                               
+                               
+                            </div>
 
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <h2 class="style-2">Top Sellers</h2>
-                                    </div>
-                                    <div class="col-md-12 wow fadeIn">
-                                        <ol class="author_list">
-                                            <li>                                    
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">
-                                                        <img class="lazy" src="images/author/author-1.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>                                    
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Monica Lucas</a>
-                                                    <span>3.2 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-2.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Mamie Barnett</a>
-                                                    <span>2.8 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-3.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Nicholas Daniels</a>
-                                                    <span>2.5 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-4.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Lori Hart</a>
-                                                    <span>2.2 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-5.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Jimmy Wright</a>
-                                                    <span>1.9 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-6.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Karla Sharp</a>
-                                                    <span>1.6 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-7.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Gayle Hicks</a>
-                                                    <span>1.5 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-8.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Claude Banks</a>
-                                                    <span>1.3 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-9.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Franklin Greer</a>
-                                                    <span>0.9 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-10.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Stacy Long</a>
-                                                    <span>0.8 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-11.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Ida Chapman</a>
-                                                    <span>0.6 ETH</span>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="author_list_pp">
-                                                    <a href="03_grey-author.html">                                    
-                                                        <img class="lazy" src="images/author/author-12.jpg" alt="">
-                                                        <i class="fa fa-check"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="author_list_info">
-                                                    <a href="03_grey-author.html">Fred Ryan</a>
-                                                    <span>0.5 eth</span>
-                                                </div>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
+                           
                         </div>
             </section>
 
-            <section id="section-text" class="no-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2 class="style-2">Create and Sell Now</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 mb-sm-30">
-                            <div class="feature-box f-boxed style-3">
-                                <i class="wow fadeInUp bg-color-2 i-boxed icon_wallet"></i>
-                                <div class="text">
-                                    <h4 class="wow fadeInUp">Set up your wallet</h4>
-                                    <p class="wow fadeInUp" data-wow-delay=".25s">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
-                                </div>
-                                <i class="wm icon_wallet"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-sm-30">
-                            <div class="feature-box f-boxed style-3">
-                                <i class="wow fadeInUp bg-color-2 i-boxed icon_cloud-upload_alt"></i>
-                                <div class="text">
-                                    <h4 class="wow fadeInUp">Add your NFT's</h4>
-                                    <p class="wow fadeInUp" data-wow-delay=".25s">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
-                                </div>
-                                <i class="wm icon_cloud-upload_alt"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-sm-30">
-                            <div class="feature-box f-boxed style-3">
-                                <i class="wow fadeInUp bg-color-2 i-boxed icon_tags_alt"></i>
-                                <div class="text">
-                                    <h4 class="wow fadeInUp">Sell your NFT's</h4>
-                                    <p class="wow fadeInUp" data-wow-delay=".25s">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
-                                </div>
-                                <i class="wm icon_tags_alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           
             
         </div>
         <!-- content close -->
@@ -718,88 +452,36 @@
         <a href="#" id="back-to-top"></a>
         
         <!-- footer begin -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-1">
-                        <div class="widget">
-                            <h5>Marketplace</h5>
-                            <ul>
-                                <li><a href="#">All NFTs</a></li>
-                                <li><a href="#">Art</a></li>
-                                <li><a href="#">Music</a></li>
-                                <li><a href="#">Domain Names</a></li>
-                                <li><a href="#">Virtual World</a></li>
-                                <li><a href="#">Collectibles</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-1">
-                        <div class="widget">
-                            <h5>Resources</h5>
-                            <ul>
-                                <li><a href="#">Help Center</a></li>
-                                <li><a href="#">Partners</a></li>
-                                <li><a href="#">Suggestions</a></li>
-                                <li><a href="#">Discord</a></li>
-                                <li><a href="#">Docs</a></li>
-                                <li><a href="#">Newsletter</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-1">
-                        <div class="widget">
-                            <h5>Community</h5>
-                            <ul>
-                                <li><a href="#">Community</a></li>
-                                <li><a href="#">Documentation</a></li>
-                                <li><a href="#">Brand Assets</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Forum</a></li>
-                                <li><a href="#">Mailing List</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-1">
-                        <div class="widget">
-                            <h5>Newsletter</h5>
-                            <p>Signup for our newsletter to get the latest news in your inbox.</p>
-                            <form action="https://www.designesia.com/themes/gigaland/blank.php" class="row form-dark" id="form_subscribe" method="post" name="form_subscribe">
-                                <div class="col text-center">
-                                    <input class="form-control" id="txt_subscribe" name="txt_subscribe" placeholder="enter your email" type="text" /> <a href="#" id="btn-subscribe"><i class="arrow_right bg-color-secondary"></i></a>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </form>
-                            <div class="spacer-10"></div>
-                            <small>Your email is safe with us. We don't spam.</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="subfooter">
+        <footer class="subfooter" style="text-align:center;">
+            
+            
                 <div class="container">
                     <div class="row">
+                    <div class="col-md-12">
+                        <img alt="" src="images/logo-3.png" />
+
+                    </div>
+                    <div class="spacer-single"></div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col-md-2">
+                        <p>Signup for our newsletter to get the latest news in your inbox. </p>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-12">
-                            <div class="de-flex">
-                                <div class="de-flex-col">
-                                    <a href="03_grey-index.html">
-                                        <span class="copy">&copy; Copyright 2021 - Gigaland by Designesia</span>
-                                    </a>
-                                </div>
-                                <div class="de-flex-col">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                        <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                        <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                        <div class="social-icons">
+                                        <a href="#"><i class="fab fa-discord"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                       
                                     </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
+                    <div class="spacer-single"></div>
                 </div>
-            </div>
+            
         </footer>
         <!-- footer close -->
         
@@ -823,7 +505,17 @@
     <script src="js/jquery.lazy.min.js"></script>
     <script src="js/jquery.lazy.plugins.min.js"></script>
     <script src="js/designesia.js"></script>
-
+    <script src="vertical-timeline-master/assets/js/main.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+            owl.owlCarousel({   
+                items:1,                                       
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true
+            });
+           
+    </script>
 
 </body>
 
